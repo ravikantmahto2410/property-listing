@@ -35,12 +35,12 @@ const userSchema = new Schema(
 
         favorites : {
             type: [Schema.Types.ObjectId],
-            ref : "Property"
         },
         
         refreshToken:{
             type: String
-        }
+        },
+        
 
     },
     {
